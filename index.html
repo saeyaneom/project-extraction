@@ -56,14 +56,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<!-- <nav id="navi">
+					<a href="https://saeyaneom.github.io/portfolio/#projects-section" style="cursor: pointer; color: #3e64ff;" >Back to the lists</a>
+					<nav id="navi">
 						<ul>
-							<li><a href="../portfolio/#page-1">Education</a></li>
-							<li><a href="../portfolio/#page-2">Experience</a></li>
-							<li><a href="../portfolio/#page-3">Skills</a></li>
-							<li><a href="#page-4">Projects</a></li>
+							<li><a href="#description">Description</a></li>
+							<li><a href="#tools">Tools</a></li>
+							<li><a href="#data">Data</a></li>
+							<li><a href="#methodology">Methodology</a></li>
+							<li><a href="#results">Results</a></li>
 						</ul>
-					</nav> -->
+					</nav>
 					
 					<!-- <nav id="navi">
 						<ul>
@@ -74,7 +76,7 @@
 						</ul>
 					</nav> -->
 					
-					<a onclick="history.back()" style="cursor: pointer; color: #3e64ff;" >Back to the lists</a>
+					
 
 
 				</div>
@@ -83,7 +85,7 @@
 					<div id="page-4" class="page four">
 
 						<h1 class="title">Extraction, clustering, and visualization of indicators of <b>regional activation</b></h1>
-						<div class="projectwrapper">
+						<div class="projectwrapper" id="description">
 							<h2 class="heading" style="margin-bottom: 10px;">Description</h2>
 							<div class="detail">
 								<h6>
@@ -97,7 +99,7 @@
 
 						
 
-						<div class="projectwrapper">
+						<div class="projectwrapper" id ="tools">
 							<h2 class="heading" style="margin-bottom: 10px;">What we used...</h2>
 							<div class="detail">
 								<div class="imagewrapper">
@@ -111,7 +113,7 @@
 							</div>
 						</div>
 
-						<div class="projectwrapper">
+						<div class="projectwrapper" id="data">
 							<h2 class="heading" style="margin-bottom: 10px;">Data</h2>
 							<div class="detail">
 								// sample
@@ -119,7 +121,7 @@
 							</div>
 						</div>
 						
-						<div class="projectwrapper">
+						<div class="projectwrapper" id="methodology">
 							<h2 class="heading" style="margin-bottom: 10px;">How?</h2>
 							<div>
 								<h3><b>Exploratory Data Analysis</b></h3>
@@ -137,39 +139,11 @@
 									and compared the results. 
 									</h6>
 								</div>
-								<div><h6><b>LSTM</b></h6></div>
-								<div class="imagewrapper">
-									<h4>Ex. Kitty Bunny Pony (Brand)</h4>
-									<img src="images/LSTM-1.png" style="height: 200px;" />			
-								</div>
-								<div class="detail">
-									<h6><b>LSTM</b> models used itself as trained data, so it understood the shape of ther pattern well.
-										But the further the future was predicted, the less accurate it was.
-									</h6>
-								</div>
-								<div><h6><b>SARIMA</b></h6></div>
-								<div class="imagewrapper">
-									<img src="images/SARIMA.png" style="height: 200px;" />					
-								</div>
-								<div class="detail">
-									<h6><b>SARIMA</b> is also fine predicting the near future, but it has poor understanding of patterns at the further future.
-									</h6>
-								</div>
-								<div><h6><b>Prophet</b></h6></div>
-								<div class="imagewrapper">
-									<img src="images/prophet.png" style="height: 200px;" />
-								</div>
-								<div class="detail">
-									<h6>
-										Prophet propet derived a probability of close to 20% to 50%
-										 while LSTM or SARIMA gave a probability of close to 100% when it was likely to be on sale. 
-										And the possibility of sale is over 20% is relatively high in propeht. With that standard(20%), prophet model 
-										predicted sale status very well, also in the further future. </h6>
-								</div>
+								
 							</div>
 						</div>
 
-						<div class="projectwrapper">
+						<div class="projectwrapper" id="Results">
 							<h2 class="heading" style="margin-bottom: 10px;">Results</h2>
 							<div class="detail">
 								<h6>
