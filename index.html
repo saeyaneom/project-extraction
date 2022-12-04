@@ -116,8 +116,9 @@
 						<div class="projectwrapper" id="data">
 							<h2 class="heading" style="margin-bottom: 10px;">Data</h2>
 							<div class="detail">
-								// sample
+								// sample <br />
 								We utilized data from Ministry of Land, Infrastructure and Transport, South Korea.
+								We used the data about activation degree by fields, and regional data. 
 							</div>
 						</div>
 						
@@ -133,10 +134,13 @@
 
 								<h3><b>Stepwise Feature Selection</b></h3>
 								<div class="detail">
+									<div class="imagewrapper">
+										<img src="images/feature selection.png" />
+									</div>
 									<h6>
-										We utilized <b>Long Short-Term Memory (LSTM)</b>, <b>Seasonal Auto-Regressive Integrated Moving Average (SARIMA)</b>,
-									and <b>Prophet</b> module from facebook. We made models with one feature(whether the brand is sale or not) 
-									and compared the results. 
+										If we used all the variables, there is a risk of overfitting, so select the variable. 
+										The dependent variable is activated by field, and the stepwise selection method is implemented by 
+										field to select a variable that is significant to the degree of activation by field.
 									</h6>
 								</div>
 								
